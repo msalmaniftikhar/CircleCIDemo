@@ -24,10 +24,6 @@ jobs:
           command: php index.php
 
       - run:
-          name: Enable Xdebug for coverage
-          command: sudo pecl install xdebug || true && sudo docker-php-ext-enable xdebug || true
-
-      - run:
           name: Run tests with coverage
           command: |
             mkdir -p build/coverage

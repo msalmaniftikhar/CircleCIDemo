@@ -13,7 +13,7 @@ fi
 
 echo "Running full test suite..."
 
-if ! "$PHPUNIT" --testdox tests/unit/ tests/convergence/; then
+if ! XDEBUG_MODE=off "$PHPUNIT" --testdox tests/unit/ tests/convergence/; then
   echo "[HUMAN GATE] Tests failed — pipeline blocked." >&2
   exit 1
 fi
