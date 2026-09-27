@@ -2,7 +2,6 @@
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/msalmaniftikhar/CircleCIDemo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/msalmaniftikhar/CircleCIDemo/tree/main)
 
-> **Note:** Replace `<org>` in the badge URLs above with your GitHub organization or username before the first push.
 
 ---
 
