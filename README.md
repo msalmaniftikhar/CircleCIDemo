@@ -1,6 +1,6 @@
 # CircleCI Hello World — Kiro Spec-Driven Demo
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/msalmaniftikhar/CircleCIDemo/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/msalmaniftikhar/CircleCIDemo/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/msalmaniftikhar/CircleCIDemo/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/msalmaniftikhar/CircleCIDemo/tree/master)
 
 
 ---
