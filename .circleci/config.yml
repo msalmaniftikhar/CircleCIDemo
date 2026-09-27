@@ -1,9 +1,5 @@
 version: 2.1
 
-# Phase 6 — Agent Harness
-# CircleCI 2.1 pipeline for the Kiro spec-driven CircleCI Hello World Demo.
-# Single build job: checkout → install → lint → run → unit tests → convergence tests → human gate.
-
 executors:
   php-executor:
     docker:
@@ -28,16 +24,29 @@ jobs:
           command: php index.php
 
       - run:
-          name: Run unit tests (Phase 8 — AC Verification)
-          command: vendor/bin/phpunit --testdox tests/unit/
+          name: Enable Xdebug for coverage
+          command: sudo pecl install xdebug || true && sudo docker-php-ext-enable xdebug || true
 
       - run:
-          name: Run convergence tests (Phase 9 — Invariant Verification)
-          command: vendor/bin/phpunit --testdox tests/convergence/
+          name: Run tests with coverage
+          command: |
+            mkdir -p build/coverage
+            XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-clover build/coverage/clover.xml
 
       - run:
-          name: Human gate check (Phase 10 — Pre-Production)
+          name: Human gate check
           command: bash scripts/human-gate.sh
+
+      - run:
+          name: Run SonarCloud analysis
+          command: |
+            curl -sSLo sonar-scanner.zip https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-6.2.1.4610-linux-x64.zip
+            unzip -q sonar-scanner.zip
+            ./sonar-scanner-6.2.1.4610-linux-x64/bin/sonar-scanner \
+              -Dsonar.organization=msalmaniftikhar \
+              -Dsonar.projectKey=circlecidemo \
+              -Dsonar.host.url=https://sonarcloud.io \
+              -Dsonar.token=${SONAR_TOKEN}
 
 workflows:
   main:

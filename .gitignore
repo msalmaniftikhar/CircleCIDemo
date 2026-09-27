@@ -7,3 +7,5 @@ composer.lock
 .idea/
 .vscode/
 *.swp
+# Coverage reports
+/build/
