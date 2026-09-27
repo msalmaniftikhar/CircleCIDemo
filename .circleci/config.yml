@@ -1,3 +1,45 @@
-- run:
-    name: Run PHP Application
-    command: php index.php
+version: 2.1
+
+# Phase 6 — Agent Harness
+# CircleCI 2.1 pipeline for the Kiro spec-driven CircleCI Hello World Demo.
+# Single build job: checkout → install → lint → run → unit tests → convergence tests → human gate.
+
+executors:
+  php-executor:
+    docker:
+      - image: cimg/php:8.2
+
+jobs:
+  build:
+    executor: php-executor
+    steps:
+      - checkout
+
+      - run:
+          name: Install Composer dependencies
+          command: composer install --no-interaction --prefer-dist
+
+      - run:
+          name: Validate PHP syntax
+          command: find . -name "*.php" -not -path "./vendor/*" -exec php -l {} \;
+
+      - run:
+          name: Run application
+          command: php index.php
+
+      - run:
+          name: Run unit tests (Phase 8 — AC Verification)
+          command: vendor/bin/phpunit --testdox tests/unit/
+
+      - run:
+          name: Run convergence tests (Phase 9 — Invariant Verification)
+          command: vendor/bin/phpunit --testdox tests/convergence/
+
+      - run:
+          name: Human gate check (Phase 10 — Pre-Production)
+          command: bash scripts/human-gate.sh
+
+workflows:
+  main:
+    jobs:
+      - build

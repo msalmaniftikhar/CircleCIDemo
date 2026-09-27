@@ -1,11 +1,19 @@
 <?php
 
-// Simple PHP application for CircleCI pipeline testing
+declare(strict_types=1);
 
-$appName = "CircleCI Demo";
-$message = "Hello World";
+/**
+ * Application entry point — Phase 7 Implementation
+ *
+ * Thin bootstrap: loads Composer autoloader and delegates all output
+ * to HelloWorld::run(). No business logic lives here.
+ *
+ * Requirements satisfied: 2.1, 2.2, 2.3
+ */
 
-echo "=== {$appName} ===" . PHP_EOL;
-echo $message . PHP_EOL;
-echo "PHP Version: " . PHP_VERSION . PHP_EOL;
-echo "Pipeline test completed successfully!" . PHP_EOL;
+require_once __DIR__ . '/vendor/autoload.php';
+
+use App\HelloWorld;
+
+$app = new HelloWorld();
+$app->run();

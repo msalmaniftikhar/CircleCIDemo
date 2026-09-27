@@ -1,0 +1,314 @@
+{
+  "pbtResults": {
+    "4.2 Write property test for `run()` output structure inside `testRun()` (Property 1)": {
+      "status": "passed",
+      "lastRunTimestamp": 1790502674853
+    }
+  },
+  "executionHistory": {
+    "1.1 Create `.kiro/steering/project-context.md`": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435645
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502443669
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502503592
+      }
+    ],
+    "2.1 Rewrite `.circleci/config.yml` for CircleCI 2.1": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435726
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502511927
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502554322
+      }
+    ],
+    "3.1 Create `composer.json` at the project root": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435784
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502444121
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502504166
+      }
+    ],
+    "3.2 Create `src/HelloWorld.php` with the `App\\HelloWorld` class": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435854
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502515843
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502553849
+      }
+    ],
+    "3.3 Refactor `index.php` to be a thin entry point": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435892
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502562820
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502584150
+      }
+    ],
+    "4.1 Create `tests/unit/HelloWorldTest.php` extending `PHPUnit\\Framework\\TestCase`": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435938
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502591333
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502627800
+      }
+    ],
+    "4.2 Write property test for `run()` output structure inside `testRun()` (Property 1)": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502435976
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502637012
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502693045
+      }
+    ],
+    "4.3 Create `.kiro/hooks/ac-verification.json`": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436025
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502591607
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502628162
+      }
+    ],
+    "5. Checkpoint — Ensure all unit tests pass": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436065
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502697680
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502707980
+      }
+    ],
+    "6.1 Create `tests/convergence/ConvergenceTest.php`": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436147
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502637254
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502693262
+      }
+    ],
+    "6.2 Write property test for entry point delegation (Property 2)": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436192
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502715463
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502776426
+      }
+    ],
+    "7.1 Create `scripts/human-gate.sh`": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436236
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502715738
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502776894
+      }
+    ],
+    "8.1 Update `README.md` with CircleCI badge and local instructions": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436282
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503088629
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503210622
+      }
+    ],
+    "8.2 Create `docs/pipeline-stages.md`": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436327
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503088900
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503211170
+      }
+    ],
+    "9. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502436375
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503215379
+      },
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503238657
+      }
+    ],
+    "1. Phase 5 — Context/Skills: create steering file": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502503704
+      }
+    ],
+    "2. Phase 6 — Agent Harness: rewrite CircleCI pipeline": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502554383
+      }
+    ],
+    "3. Phase 7 — Implementation: Composer config, HelloWorld class, entry point": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502584232
+      }
+    ],
+    "4. Phase 8 — AC/Test Verification: unit tests and hook": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502693132
+      }
+    ],
+    "6. Phase 9 — Convergence: property-invariant test suite": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502776519
+      }
+    ],
+    "7. Phase 10 — Human Gate: pre-push check script": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790502776943
+      }
+    ],
+    "8. Phase 11 — Production: README and narrative doc": [
+      {
+        "executionId": "b0a21da2-1a75-4732-8aa8-e5f645a1b4f3",
+        "chatSessionId": "sess_0e2cd52f-de9c-4c4d-9ac2-de56bbcdf2ff",
+        "timestamp": 1790503211221
+      }
+    ]
+  }
+}

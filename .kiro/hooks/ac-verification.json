@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "AC Verification on PHP Save",
+      "trigger": "PostFileSave",
+      "matcher": "\\.php$",
+      "action": {
+        "type": "command",
+        "command": "vendor/bin/phpunit --testdox tests/unit/ 2>&1"
+      }
+    }
+  ]
+}
