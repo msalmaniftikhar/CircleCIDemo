@@ -1,0 +1,18 @@
+version: 2.1
+
+jobs:
+  test:
+    docker:
+      - image: cimg/php:8.3
+
+    steps:
+      - checkout
+
+      - run:
+          name: Run Hello World
+          command: php hello.php
+
+workflows:
+  test-hello:
+    jobs:
+      - test
