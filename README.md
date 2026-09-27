@@ -1,6 +1,9 @@
 # CircleCI Hello World — Kiro Spec-Driven Demo
 
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/msalmaniftikhar/CircleCIDemo/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/msalmaniftikhar/CircleCIDemo/tree/master)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=circlecidemo&metric=alert_status)](https://sonarcloud.io/project/overview?id=circlecidemo)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=circlecidemo&metric=coverage)](https://sonarcloud.io/project/overview?id=circlecidemo)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=circlecidemo&metric=bugs)](https://sonarcloud.io/project/overview?id=circlecidemo)
 
 
 ---
